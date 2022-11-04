@@ -11,4 +11,18 @@ Clonar repositorio
 ```
 git clone https://github.com/ovekz/zsh-atentus
 ```
-
+Copiar Archivos
+```
+cd zsh-atentus
+```
+```
+sudo cp -r .zshrc ~/.
+```
+```
+sudo cp -r kitty.conf color.ini ~/.config/kitty
+```
+Instalar powerlevel10k
+```
+git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ~/powerlevel10k
+echo 'source ~/powerlevel10k/powerlevel10k.zsh-theme' >>~/.zshrc
+```
