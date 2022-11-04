@@ -14,12 +14,8 @@ git clone https://github.com/ovekz/zsh-atentus
 Copiar Archivos
 ```
 cd zsh-atentus
-```
-```
-sudo cp -r .zshrc ~/.
-```
-```
-sudo cp -r kitty.conf color.ini ~/.config/kitty
+cp -r .zshrc ~/.
+cp -r kitty.conf color.ini ~/.config/kitty
 ```
 Instalar powerlevel10k
 ```
