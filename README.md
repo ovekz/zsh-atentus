@@ -1,11 +1,11 @@
 # zsh-atentus
 Instalar dependencias
 ```
-sudo apt install kitty zsh zsh-autosuggestions zsh-syntax-highlighting
+sudo apt install bat kitty zsh zsh-autosuggestions zsh-syntax-highlighting
 ```
 Cambiar la shell a la zsh
 ```
-usermod --shell /usr/bin/zsh $USER
+sudo usermod --shell /usr/bin/zsh $USER
 ```
 Clonar repositorio
 ```
@@ -15,6 +15,7 @@ Copiar Archivos
 ```
 cd zsh-atentus
 cp -r .zshrc ~/.
+cp -r .p10k.zsh ~/.
 cp -r kitty.conf color.ini ~/.config/kitty
 ```
 Instalar powerlevel10k
